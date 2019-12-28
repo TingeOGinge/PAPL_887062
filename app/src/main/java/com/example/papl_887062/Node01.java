@@ -29,7 +29,7 @@ public class Node01 extends AppCompatActivity {
     AlertDialog.Builder builder = new AlertDialog.Builder(this);
     builder.setTitle("Option Description")
         .setMessage(view.getContentDescription())
-        .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+        .setPositiveButton("Select", new DialogInterface.OnClickListener() {
           @Override
           public void onClick(DialogInterface dialogInterface, int i) {
             dialogInterface.cancel();
@@ -37,7 +37,7 @@ public class Node01 extends AppCompatActivity {
             startActivity(in);
           }
         })
-        .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+        .setNegativeButton("Back", new DialogInterface.OnClickListener() {
           @Override
           public void onClick(DialogInterface dialogInterface, int i) {
             dialogInterface.cancel();
