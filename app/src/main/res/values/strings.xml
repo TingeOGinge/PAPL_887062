@@ -4,4 +4,7 @@
     <string name="backButtonDescription">Return to the previous screen</string>
     <string name="homepageText">Should I work out today?</string>
     <string name="heptagon">Navigation Heptagon</string>
+    <string name="unwell">I\'m not feeling very well</string>
+    <string name="node01">Do you feel good today?</string>
+    <string name="prompt">Click on an emoji to see the description</string>
 </resources>
