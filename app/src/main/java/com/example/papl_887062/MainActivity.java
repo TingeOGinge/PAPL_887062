@@ -14,10 +14,6 @@ public class MainActivity extends AppCompatActivity {
     setContentView(R.layout.activity_main);
   }
 
-  public void onClickExitButton(View view) {
-    System.exit(0);
-  }
-
   public void onClickHomepageText(View view) {
     Intent myIntent = new Intent(MainActivity.this, Node01.class);
     startActivity(myIntent);
