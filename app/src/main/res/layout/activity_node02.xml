@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Node01">
+    tools:context=".Node02">
 
     <ImageView
         android:id="@+id/heptagon"
@@ -23,41 +23,40 @@
         android:id="@+id/option1"
         android:layout_width="74dp"
         android:layout_height="76dp"
-        android:contentDescription="@string/node01_01"
+        android:contentDescription="@string/emptyOption"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="@+id/heptagon"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.265"
-        app:srcCompat="@drawable/smiling_face_with_open_mouth_and_smiling_eyes_1f604" />
+        app:srcCompat="@drawable/medium_black_circle_26ab"/>
 
     <ImageView
         android:id="@+id/option2"
         android:layout_width="74dp"
         android:layout_height="76dp"
-        android:contentDescription="@string/node01_02"
+        android:contentDescription="@string/emptyOption"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.86"
         app:layout_constraintStart_toStartOf="@+id/heptagon"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.37"
-        app:srcCompat="@drawable/white_frowning_face_2639" />
+        app:srcCompat="@drawable/medium_black_circle_26ab"/>
 
     <ImageView
         android:id="@+id/option3"
         android:layout_width="74dp"
         android:layout_height="76dp"
-        android:contentDescription="@string/node01_03"
-        android:onClick="onClickOption3"
+        android:contentDescription="@string/emptyOption"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.142"
         app:layout_constraintStart_toStartOf="@+id/heptagon"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.37"
-        app:srcCompat="@drawable/slightly_frowning_face_1f641" />
+        app:srcCompat="@drawable/medium_black_circle_26ab"/>
 
     <ImageView
         android:id="@+id/option4"
@@ -131,7 +130,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="@string/node01_question"
+        android:text="@string/node02_question"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/option1"
         app:layout_constraintEnd_toEndOf="parent"
