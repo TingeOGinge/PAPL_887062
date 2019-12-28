@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".Node01">
 
+    <ImageView
+        android:id="@+id/heptagon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/heptagon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heptagon" />
+
     <ImageButton
         android:id="@+id/backButton"
         android:layout_width="wrap_content"

@@ -3,4 +3,5 @@
     <string name="closeButtonDescription">Close the application</string>
     <string name="backButtonDescription">Return to the previous screen</string>
     <string name="homepageText">Should I work out today?</string>
+    <string name="heptagon">Navigation Heptagon</string>
 </resources>
