@@ -16,7 +16,7 @@ public class Node06 extends AppCompatActivity {
   }
 
   public void onClickBack(View view) {
-    Class previous = ((DecisionStack) this.getApplication()).getPrevious();
+    Class previous = ((DecisionStack) this.getApplication()).getPrevious(true);
     try {
       Intent node01ToMain = new Intent(Node06.this, previous);
       startActivity(node01ToMain);

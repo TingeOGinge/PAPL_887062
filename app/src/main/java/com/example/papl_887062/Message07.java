@@ -20,7 +20,7 @@ public class Message07 extends AppCompatActivity {
   }
 
   public void onClickBack(View view) {
-    Class previous = ((DecisionStack) this.getApplication()).getPrevious();
+    Class previous = ((DecisionStack) this.getApplication()).getPrevious(false);
     try {
       Intent i = new Intent(Message07.this, previous);
       startActivity(i);

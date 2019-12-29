@@ -67,7 +67,7 @@ public class Node02 extends AppCompatActivity {
   }
 
   public void onClickBack(View view) {
-    Class previous = ((DecisionStack) this.getApplication()).getPrevious();
+    Class previous = ((DecisionStack) this.getApplication()).getPrevious(true);
     try {
       Intent i = new Intent(Node02.this, previous);
       startActivity(i);
