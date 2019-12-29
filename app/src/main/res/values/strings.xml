@@ -11,7 +11,7 @@
     <string name="node01_03">I guess, but&#8230;</string>
     <string name="node01Question">Do you feel good today?</string>
     <string name="node03Question">Buuuuuuuuut?</string>
-    <string name="node01Prompt">Click on an emoji to see the description</string>
+    <string name="decisionNodePrompt">Click on an emoji to see the description</string>
     <string name="message01Prompt">Well it sucks that you feel like that, if I\'m honest</string>
     <string name="node02Question">So, what\'s up?</string>
     <string name="node02_01">I don\'t feel well</string>
@@ -26,4 +26,7 @@
     <string name="message07Prompt">Do you know what\'s great for that?</string>
     <string name="message05Prompt">Trust me, everyone in the gym is worried about themselves. You can do this!</string>
     <string name="node05Question">Are you sore, or injured?</string>
+    <string name="node06Question">Do you need to be at the gym to exercise?</string>
+    <string name="node07Question">Did you get at least 6 hours sleep last night?</string>
+    <string name="message09Prompt">I know it\'s hard, but the endorphins will help. Even if you just do the bare minimum, you\'ll feel better</string>
 </resources>

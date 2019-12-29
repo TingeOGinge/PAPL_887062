@@ -6,24 +6,20 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Message05 extends AppCompatActivity {
+public class Node07 extends AppCompatActivity {
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_message05);
-  }
-
-  public void onClickMessage(View view) {
-    Intent myIntent = new Intent(Message05.this, Node06.class);
-    startActivity(myIntent);
+    setContentView(R.layout.activity_node07);
+    ((DecisionStack) this.getApplication()).add(Node07.class);
   }
 
   public void onClickBack(View view) {
     Class previous = ((DecisionStack) this.getApplication()).getPrevious();
     try {
-      Intent i = new Intent(Message05.this, previous);
-      startActivity(i);
+      Intent node01ToMain = new Intent(Node07.this, previous);
+      startActivity(node01ToMain);
     } catch (Exception e) {
       System.err.println(e);
     }
