@@ -13,7 +13,7 @@ public class DecisionStack extends Application {
   }
 
   public void add(Class c) {
-    if(stack.empty() || !stackPeek(c)) {
+    if(!checkForDuplicate(c)) {
       stack.push(c);
     }
   }
@@ -28,11 +28,7 @@ public class DecisionStack extends Application {
     }
   }
 
-  private Boolean stackPeek(Class current) {
-    if (!stack.empty()) {
-      return current == stack.peek();
-    } else {
-      return false;
-    }
+  private Boolean checkForDuplicate(Class current) {
+    return !stack.empty() && current == stack.peek();
   }
 }
