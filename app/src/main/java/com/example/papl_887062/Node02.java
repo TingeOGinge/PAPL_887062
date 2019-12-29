@@ -12,9 +12,7 @@ public class Node02 extends AppCompatActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_node02);
-    if (!((DecisionStack) this.getApplication()).stackPeek(Node02.class)) {
-      ((DecisionStack) this.getApplication()).add(Node02.class);
-    }
+    ((DecisionStack) this.getApplication()).add(Node02.class);
   }
 
   public void onClickBack(View view) {

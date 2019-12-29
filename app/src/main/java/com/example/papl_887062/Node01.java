@@ -13,9 +13,7 @@ public class Node01 extends AppCompatActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_node01);
-    if (!((DecisionStack) this.getApplication()).stackPeek(Node01.class)) {
-      ((DecisionStack) this.getApplication()).add(Node01.class);
-    }
+    ((DecisionStack) this.getApplication()).add(Node01.class);
   }
 
   public void onClickBack(View view) {
