@@ -34,4 +34,5 @@
     <string name="node03_03">It is raining though</string>
     <string name="node03_04">I don\'t have a lot of time today</string>
     <string name="message02Prompt">Oh, really&#8230;?</string>
+    <string name="message03Prompt">Well, if you say so</string>
 </resources>
