@@ -14,6 +14,7 @@ public class Node08 extends AppCompatActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_node08);
+    ((DecisionStack) this.getApplication()).add(Node08.class);
   }
 
   public void onClickBack(View view) {
@@ -27,7 +28,7 @@ public class Node08 extends AppCompatActivity {
   }
 
   public void onClickOption1(View view) {
-    openOptionDialog(view, MainActivity.class);
+    openOptionDialog(view, Node09.class);
   }
 
   public void onClickOption2(View view) {
