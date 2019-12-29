@@ -3,12 +3,13 @@
     <string name="closeButtonDescription">Close the application</string>
     <string name="backButtonDescription">Return to the previous screen</string>
     <string name="homepageText">Should I work out today?</string>
+    <string name="messagePrompt">Click to continue</string>
     <string name="heptagon">Navigation Heptagon</string>
     <string name="emptyOption">No option available</string>
     <string name="node01_01">Yes, I feel great!</string>
     <string name="node01_02">No, not at all</string>
     <string name="node01_03">I guess, but&#8230;</string>
-    <string name="node01_question">Do you feel good today?</string>
-    <string name="node03_question">Buuuuuuuuut?</string>
-    <string name="prompt">Click on an emoji to see the description</string>
+    <string name="node01Question">Do you feel good today?</string>
+    <string name="node03Question">Buuuuuuuuut?</string>
+    <string name="node01Prompt">Click on an emoji to see the description</string>
 </resources>
