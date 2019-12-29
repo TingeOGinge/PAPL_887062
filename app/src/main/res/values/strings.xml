@@ -52,4 +52,5 @@
     <string name="node10_01">I suppose I can, yes</string>
     <string name="node10_02">Doctor has said no!</string>
     <string name="node10_03">No, I\'m paralysed from the neck down and in hospital as we speak!</string>
+    <string name="message10Prompt">Listen to your doctor!</string>
 </resources>
