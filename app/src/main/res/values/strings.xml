@@ -13,7 +13,7 @@
     <string name="node03Question">Buuuuuuuuut?</string>
     <string name="node01Prompt">Click on an emoji to see the description</string>
     <string name="message01Prompt">Well it sucks that you feel like that, if I\'m honest</string>
-    <string name="node02Prompt">So, what\'s up?</string>
+    <string name="node02Question">So, what\'s up?</string>
     <string name="node02_01">I don\'t feel well</string>
     <string name="node02_02">To be honest, I\'m hungover</string>
     <string name="node02_03">Bad day, very angry</string>
@@ -21,7 +21,9 @@
     <string name="node02_05">I\m in pain!</string>
     <string name="node02_06">I\'m really tired</string>
     <string name="node02_07">My depression is bad today. I don\'t even want to get out of bed</string>
-    <string name="Node04Prompt">What kind of unwell are we talking?</string>
+    <string name="Node04Question">What kind of unwell are we talking?</string>
     <string name="message04Prompt">Definitely rehydrate then. Sounds like you would benefit from getting some of those toxins out of your system!</string>
     <string name="message07Prompt">Do you know what\'s great for that?</string>
+    <string name="message05Prompt">Trust me, everyone in the gym is worried about themselves. You can do this!</string>
+    <string name="node05Question">Are you sore, or injured?</string>
 </resources>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Node02">
+    tools:context=".Node05">
 
     <ImageView
         android:id="@+id/heptagon"
@@ -23,71 +23,66 @@
         android:id="@+id/option1"
         android:layout_width="74dp"
         android:layout_height="76dp"
-        android:contentDescription="@string/node02_01"
-        android:onClick="onClickOption1"
+        android:contentDescription="@string/emptyOption"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="@+id/heptagon"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.265"
-        app:srcCompat="@drawable/face_with_thermometer_1f912" />
+        app:srcCompat="@drawable/medium_black_circle_26ab"/>
 
     <ImageView
         android:id="@+id/option2"
         android:layout_width="74dp"
         android:layout_height="76dp"
-        android:contentDescription="@string/node02_02"
-        android:onClick="onClickOption2"
+        android:contentDescription="@string/emptyOption"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.86"
         app:layout_constraintStart_toStartOf="@+id/heptagon"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.37"
-        app:srcCompat="@drawable/beer_mug_1f37a" />
+        app:srcCompat="@drawable/medium_black_circle_26ab"/>
 
     <ImageView
         android:id="@+id/option3"
         android:layout_width="74dp"
         android:layout_height="76dp"
-        android:contentDescription="@string/node02_03"
-        android:onClick="onClickOption3"
+        android:contentDescription="@string/emptyOption"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.142"
         app:layout_constraintStart_toStartOf="@+id/heptagon"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.37"
-        app:srcCompat="@drawable/angry_face_1f620" />
+        app:srcCompat="@drawable/medium_black_circle_26ab"/>
 
     <ImageView
         android:id="@+id/option4"
         android:layout_width="74dp"
         android:layout_height="76dp"
-        android:contentDescription="@string/node02_04"
-        android:onClick="onClickOption4"
+        android:contentDescription="@string/emptyOption"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.047"
         app:layout_constraintStart_toStartOf="@+id/heptagon"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.583"
-        app:srcCompat="@drawable/face_with_open_mouth_and_cold_sweat_1f630" />
+        app:srcCompat="@drawable/medium_black_circle_26ab" />
 
     <ImageView
         android:id="@+id/option5"
         android:layout_width="74dp"
         android:layout_height="76dp"
-        android:contentDescription="@string/node02_05"
-        android:onClick="onClickOption5"
+        android:contentDescription="@string/emptyOption"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.952"
         app:layout_constraintStart_toStartOf="@+id/heptagon"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.583"
-        app:srcCompat="@drawable/face_with_head_bandage_1f915" />
+        app:srcCompat="@drawable/medium_black_circle_26ab" />
 
     <ImageView
         android:id="@+id/option6"
@@ -131,11 +126,11 @@
         app:srcCompat="@android:drawable/ic_menu_revert" />
 
     <TextView
-        android:id="@+id/question02"
+        android:id="@+id/question01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="@string/node02Question"
+        android:text="@string/node05Question"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/option1"
         app:layout_constraintEnd_toEndOf="parent"
