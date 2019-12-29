@@ -34,6 +34,14 @@ public class Node03 extends AppCompatActivity {
     openOptionDialog(view, Message03.class);
   }
 
+  public void onClickOption3(View view) {
+    openOptionDialog(view, MainActivity.class);
+  }
+
+  public void onClickOption4(View view) {
+    openOptionDialog(view, MainActivity.class);
+  }
+
   public void openOptionDialog(View view, final Class destination) {
     AlertDialog.Builder builder = new AlertDialog.Builder(this);
     builder.setTitle("Option Description")
