@@ -18,9 +18,9 @@ public class DecisionStack extends Application {
     }
   }
 
-  public Class getPrevious() {
+  public Class getPrevious(Boolean popRequired) {
     try {
-      stack.pop();
+      if (popRequired) stack.pop();
       return stack.peek();
     } catch (EmptyStackException e) {
       System.err.println(e);
