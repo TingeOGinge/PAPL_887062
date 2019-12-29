@@ -46,4 +46,6 @@
     <string name="node09Question">Really, REALLY sure?</string>
     <string name="node08_01">Yes, I\'m sure</string>
     <string name="node08_02">No, I guess I could make some time</string>
+    <string name="node09_01">Yes, I\'m busy all day and won\'t even have time to browse on my phone!</string>
+    <string name="node09_02">No, I guess not</string>
 </resources>
