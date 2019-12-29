@@ -9,6 +9,6 @@
     <string name="node01_02">No, not at all</string>
     <string name="node01_03">I guess, but&#8230;</string>
     <string name="node01_question">Do you feel good today?</string>
-    <string name="node02_question">Buuuuuuuuut?</string>
+    <string name="node03_question">Buuuuuuuuut?</string>
     <string name="prompt">Click on an emoji to see the description</string>
 </resources>
