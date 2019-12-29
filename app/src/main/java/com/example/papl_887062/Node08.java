@@ -3,23 +3,23 @@ package com.example.papl_887062;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlertDialog;
-import android.content.*;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Node03 extends AppCompatActivity {
+public class Node08 extends AppCompatActivity {
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_node03);
-    ((DecisionStack) this.getApplication()).add(Node03.class);
+    setContentView(R.layout.activity_node08);
   }
 
   public void onClickBack(View view) {
     Class previous = ((DecisionStack) this.getApplication()).getPrevious(true);
     try {
-      Intent node01ToMain = new Intent(Node03.this, previous);
+      Intent node01ToMain = new Intent(Node08.this, previous);
       startActivity(node01ToMain);
     } catch (Exception e) {
       System.err.println(e);
@@ -27,19 +27,11 @@ public class Node03 extends AppCompatActivity {
   }
 
   public void onClickOption1(View view) {
-    openOptionDialog(view, Message02.class);
-  }
-
-  public void onClickOption2(View view) {
-    openOptionDialog(view, Message03.class);
-  }
-
-  public void onClickOption3(View view) {
     openOptionDialog(view, MainActivity.class);
   }
 
-  public void onClickOption4(View view) {
-    openOptionDialog(view, Node08.class);
+  public void onClickOption2(View view) {
+    openOptionDialog(view, MainActivity.class);
   }
 
   public void openOptionDialog(View view, final Class destination) {
@@ -50,7 +42,7 @@ public class Node03 extends AppCompatActivity {
           @Override
           public void onClick(DialogInterface dialogInterface, int i) {
             dialogInterface.cancel();
-            Intent in = new Intent(Node03.this, destination);
+            Intent in = new Intent(Node08.this, destination);
             startActivity(in);
           }
         })

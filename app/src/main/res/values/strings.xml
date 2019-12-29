@@ -42,4 +42,8 @@
     <string name="node05_01">Just sore</string>
     <string name="node05_02">Genuinely injured!</string>
     <string name="message08Prompt">That does not sound good, make sure you seek medical advice if needed</string>
+    <string name="node08Question">Are you sure about that?</string>
+    <string name="node09Question">Really, REALLY sure?</string>
+    <string name="node08_01">Yes, I\'m sure</string>
+    <string name="node08_02">No, I guess I could make some time</string>
 </resources>
