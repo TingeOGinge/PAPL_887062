@@ -28,7 +28,7 @@ public class Node10 extends AppCompatActivity {
   }
 
   public void onClickOption1(View view) {
-    openOptionDialog(view, Message09.class);
+    openOptionDialog(view, MainActivity.class);
   }
 
   public void openOptionDialog(View view, final Class destination) {
