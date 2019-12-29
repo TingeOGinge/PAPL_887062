@@ -29,4 +29,9 @@
     <string name="node06Question">Do you need to be at the gym to exercise?</string>
     <string name="node07Question">Did you get at least 6 hours sleep last night?</string>
     <string name="message09Prompt">I know it\'s hard, but the endorphins will help. Even if you just do the bare minimum, you\'ll feel better</string>
+    <string name="node03_01">Can\'t get to the gym today</string>
+    <string name="node03_02">It\'s my rest day, dammit!</string>
+    <string name="node03_03">It is raining though</string>
+    <string name="node03_04">I don\'t have a lot of time today</string>
+    <string name="message02Prompt">Oh, really&#8230;?</string>
 </resources>
