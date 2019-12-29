@@ -13,7 +13,9 @@ public class DecisionStack extends Application {
   }
 
   public void add(Class c) {
-    stack.push(c);
+    if(stack.empty() || !stackPeek(c)) {
+      stack.push(c);
+    }
   }
 
   public Class getPrevious() {
@@ -26,7 +28,11 @@ public class DecisionStack extends Application {
     }
   }
 
-  public Boolean stackPeek(Class current) {
-    return current == stack.peek();
+  private Boolean stackPeek(Class current) {
+    if (!stack.empty()) {
+      return current == stack.peek();
+    } else {
+      return false;
+    }
   }
 }
