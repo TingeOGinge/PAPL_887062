@@ -51,27 +51,29 @@
         android:id="@+id/option3"
         android:layout_width="74dp"
         android:layout_height="76dp"
-        android:contentDescription="@string/emptyOption"
+        android:contentDescription="@string/node03_03"
+        android:onClick="onClickOption3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.142"
         app:layout_constraintStart_toStartOf="@+id/heptagon"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.37"
-        app:srcCompat="@drawable/medium_black_circle_26ab"/>
+        app:srcCompat="@drawable/cloud_with_rain_1f327" />
 
     <ImageView
         android:id="@+id/option4"
         android:layout_width="74dp"
         android:layout_height="76dp"
-        android:contentDescription="@string/emptyOption"
+        android:contentDescription="@string/node03_04"
+        android:onClick="onClickOption4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.047"
         app:layout_constraintStart_toStartOf="@+id/heptagon"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.583"
-        app:srcCompat="@drawable/medium_black_circle_26ab" />
+        app:srcCompat="@drawable/stopwatch_23f1" />
 
     <ImageView
         android:id="@+id/option5"
