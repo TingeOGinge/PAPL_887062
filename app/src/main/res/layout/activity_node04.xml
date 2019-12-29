@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Node02">
+    tools:context=".Node04">
 
     <ImageView
         android:id="@+id/heptagon"
@@ -23,15 +23,14 @@
         android:id="@+id/option1"
         android:layout_width="74dp"
         android:layout_height="76dp"
-        android:contentDescription="@string/node02_01"
-        android:onClick="onClickOption1"
+        android:contentDescription="@string/emptyOption"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="@+id/heptagon"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.265"
-        app:srcCompat="@drawable/face_with_thermometer_1f912" />
+        app:srcCompat="@drawable/medium_black_circle_26ab"/>
 
     <ImageView
         android:id="@+id/option2"
@@ -127,11 +126,11 @@
         app:srcCompat="@android:drawable/ic_menu_revert" />
 
     <TextView
-        android:id="@+id/question02"
+        android:id="@+id/question01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="@string/node02Prompt"
+        android:text="@string/Node04Prompt"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/option1"
         app:layout_constraintEnd_toEndOf="parent"
