@@ -22,4 +22,6 @@
     <string name="node02_06">I\'m really tired</string>
     <string name="node02_07">My depression is bad today. I don\'t even want to get out of bed</string>
     <string name="Node04Prompt">What kind of unwell are we talking?</string>
+    <string name="message04Prompt">Definitely rehydrate then. Sounds like you would benefit from getting some of those toxins out of your system!</string>
+    <string name="message07Prompt">Do you know what\'s great for that?</string>
 </resources>
