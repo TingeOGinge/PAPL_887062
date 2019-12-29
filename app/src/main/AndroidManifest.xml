@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:name=".DecisionStack">
-        <activity android:name=".Node02"></activity>
+        <activity android:name=".Node03"></activity>
         <activity android:name=".Node01" />
         <activity android:name=".MainActivity">
             <intent-filter>
