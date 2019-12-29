@@ -23,14 +23,15 @@
         android:id="@+id/option1"
         android:layout_width="74dp"
         android:layout_height="76dp"
-        android:contentDescription="@string/emptyOption"
+        android:contentDescription="@string/node03_01"
+        android:onClick="onClickOption1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="@+id/heptagon"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.265"
-        app:srcCompat="@drawable/medium_black_circle_26ab"/>
+        app:srcCompat="@drawable/no_bicycles_1f6b3" />
 
     <ImageView
         android:id="@+id/option2"
