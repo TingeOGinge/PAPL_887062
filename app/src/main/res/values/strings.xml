@@ -39,4 +39,7 @@
     <string name="node04_02">Chest cold, stomach bug or producing mucus</string>
     <string name="node04_03">I have a headache</string>
     <string name="message06Prompt">It\'s understandable not wanting to spread that</string>
+    <string name="node05_01">Just sore</string>
+    <string name="node05_02">Genuinely injured!</string>
+    <string name="message08Prompt">That does not sound good, make sure you seek medical advice if needed</string>
 </resources>
