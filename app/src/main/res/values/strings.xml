@@ -14,4 +14,12 @@
     <string name="node01Prompt">Click on an emoji to see the description</string>
     <string name="message01Prompt">Well it sucks that you feel like that, if I\'m honest</string>
     <string name="node02Prompt">So, what\'s up?</string>
+    <string name="node02_01">I don\'t feel well</string>
+    <string name="node02_02">To be honest, I\'m hungover</string>
+    <string name="node02_03">Bad day, very angry</string>
+    <string name="node02_04">My anxiety is really high today, I can\'t handle the other people</string>
+    <string name="node02_05">I\m in pain!</string>
+    <string name="node02_06">I\'m really tired</string>
+    <string name="node02_07">My depression is bad today. I don\'t even want to get out of bed</string>
+    <string name="Node04Prompt">What kind of unwell are we talking?</string>
 </resources>
