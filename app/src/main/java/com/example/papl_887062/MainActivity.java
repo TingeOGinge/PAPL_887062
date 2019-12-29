@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
+    ((DecisionStack) this.getApplication()).add(MainActivity.class);
   }
 
   public void onClickHomepageText(View view) {
