@@ -48,4 +48,8 @@
     <string name="node08_02">No, I guess I could make some time</string>
     <string name="node09_01">Yes, I\'m busy all day and won\'t even have time to browse on my phone!</string>
     <string name="node09_02">No, I guess not</string>
+    <string name="node10Question">Assuming clearance from your doctor, can you exercise a different body part?</string>
+    <string name="node10_01">I suppose I can, yes</string>
+    <string name="node10_02">Doctor has said no!</string>
+    <string name="node10_03">No, I\'m paralysed from the neck down and in hospital as we speak!</string>
 </resources>
