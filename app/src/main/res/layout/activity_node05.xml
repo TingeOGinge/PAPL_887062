@@ -23,27 +23,29 @@
         android:id="@+id/option1"
         android:layout_width="74dp"
         android:layout_height="76dp"
-        android:contentDescription="@string/emptyOption"
+        android:contentDescription="@string/node05_01"
+        android:onClick="onClickOption1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="@+id/heptagon"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.265"
-        app:srcCompat="@drawable/medium_black_circle_26ab"/>
+        app:srcCompat="@drawable/slightly_frowning_face_1f641" />
 
     <ImageView
         android:id="@+id/option2"
         android:layout_width="74dp"
         android:layout_height="76dp"
-        android:contentDescription="@string/emptyOption"
+        android:contentDescription="@string/node05_02"
+        android:onClick="onClickOption2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.86"
         app:layout_constraintStart_toStartOf="@+id/heptagon"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.37"
-        app:srcCompat="@drawable/medium_black_circle_26ab"/>
+        app:srcCompat="@drawable/face_with_head_bandage_1f915" />
 
     <ImageView
         android:id="@+id/option3"
