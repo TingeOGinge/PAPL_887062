@@ -35,4 +35,7 @@
     <string name="node03_04">I don\'t have a lot of time today</string>
     <string name="message02Prompt">Oh, really&#8230;?</string>
     <string name="message03Prompt">Well, if you say so</string>
+    <string name="node04_01">Sniffles, sore throat (no mucus), but nothing in the chest</string>
+    <string name="node04_02">Chest cold, stomach bug or producing mucus</string>
+    <string name="node04_03">Headache</string>
 </resources>
