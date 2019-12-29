@@ -12,4 +12,6 @@
     <string name="node01Question">Do you feel good today?</string>
     <string name="node03Question">Buuuuuuuuut?</string>
     <string name="node01Prompt">Click on an emoji to see the description</string>
+    <string name="message01Prompt">Well it sucks that you feel like that, if I\'m honest</string>
+    <string name="node02Prompt">So, what\'s up?</string>
 </resources>
