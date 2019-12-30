@@ -32,7 +32,7 @@ public class Node08 extends AppCompatActivity {
   }
 
   public void onClickOption2(View view) {
-    openOptionDialog(view, MainActivity.class);
+    openOptionDialog(view, Message12.class);
   }
 
   public void openOptionDialog(View view, final Class destination) {
