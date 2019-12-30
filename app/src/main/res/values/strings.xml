@@ -64,4 +64,5 @@
     <string name="node12Question">Can you go for a run outside?</string>
     <string name="node12_01">Yes, I forgot I have legs!</string>
     <string name="node12_02">No, there is a black hole outside my door and I\'m trapped</string>
+    <string name="message12Prompt">I think you know what I am going to say&#8230;</string>
 </resources>
