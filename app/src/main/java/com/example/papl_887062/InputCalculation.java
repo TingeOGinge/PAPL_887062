@@ -45,6 +45,17 @@ public class InputCalculation {
     recommendUpperLowerSplit();
   }
 
+  public static void recommendModerateWorkouts() {
+    recommendBodyweight();
+    recommendCardio();
+    recommendFullWorkouts();
+  }
+
+  public static void recommendBasicWorkouts() {
+    recommendEasyExercise();
+    recommendBodyweight();
+  }
+
   public static void recommendFullWorkouts() {
     content.add(createFullWorkout(
         "Back Squat",
@@ -96,6 +107,55 @@ public class InputCalculation {
         "Walking Lunges",
         "Goblet Squat",
         "30s Planks"
+    ));
+  }
+
+  public static void recommendCardio() {
+    content.add(
+        "20 Minutes Stationary Bike\n" +
+            "HIIT Circuit: \n" +
+            "21 - 15 - 9 \n" +
+            "Kettlebell Swings \n" +
+            "Burpees \n" +
+            "Double Unders"
+    );
+    content.add(
+        "30 Minutes Treadmill\n" +
+            "HIIT Circuit: \n" +
+            "3 Rounds For Time: \n" +
+            "20m Sled Push \n" +
+            "10 Pull Ups\n" +
+            "10 Burpees"
+    );
+  }
+
+  public static void recommendEasyExercise() {
+    content.add(
+        "Dynamic Stretching to Warm Up \n" +
+            "Go Jogging \n" +
+            "It really is that simple"
+    );
+    content.add(
+        "Yoga: Sun Salutations \n" +
+            "Mountain Pose \n" +
+            "Upward Salute \n" +
+            "Standing Forward Bend \n" +
+            "Plank Pose \n" +
+            "Upward Facing Dog \n" +
+            "Downward Facing Dog \n" +
+            "Standing Forward Bend \n" +
+            "Repeat as needed"
+    );
+  }
+
+  public static void recommendBodyweight() {
+    content.add(createFullWorkout(
+        "Air Squats",
+        "Push Ups",
+        "Inverted Rows (Pull Ups if possible)",
+        "Pistol Squats",
+        "Diamond Push Ups",
+        "30 Second Planks"
     ));
   }
 

@@ -87,6 +87,6 @@
     <string name="node09_01_TMessage">We all have days where we are too busy, but often we can find time if we practice some time management skills. Use today as a learning experience.</string>
     <string name="acceptWorkoutButton">Accept</string>
     <string name="rejectWorkoutButton">Reject</string>
-    <string name="noRecommendations">That\'s all of the recommendations I have, sorry I couldn\'t be of more help</string>
+    <string name="noRecommendations">That\'s all of the recommendations I have, sorry I couldn\'t be of more help. Google and YouTube are your best friends now</string>
     <string name="finishButton">Finish</string>
 </resources>
