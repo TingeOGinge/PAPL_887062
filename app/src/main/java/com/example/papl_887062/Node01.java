@@ -28,7 +28,7 @@ public class Node01 extends AppCompatActivity {
 
   public void onClickOption1(View view) {
     InputCalculation.setMessage(getResources().getString(R.string.node01_01_TMessage));
-    InputCalculation.recommendFullWorkouts();
+    InputCalculation.recommendIntenseWorkouts();
     openOptionDialog(view, ExerciseThen.class);
   }
 

@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class InputCalculation {
   private static String message;
   private static ArrayList<String> content = new ArrayList<>();
+  private static Boolean exerciseFlag;
 
   public static String getMessage() {
     return message;
@@ -14,8 +15,16 @@ public class InputCalculation {
     message = m;
   }
 
-  public static String getSpecificContent(int index) {
-    return (!content.isEmpty() && index < content.size()) ? content.get(index) : null;
+  public static String getRecommendation() {
+    return (!content.isEmpty()) ? content.remove(0) : null;
+  }
+
+  public static void setExerciseFlag(Boolean b) {
+    exerciseFlag = b;
+  }
+
+  public static Boolean getExerciseFlag() {
+    return exerciseFlag;
   }
 
   private static String createFullWorkout(String m1, String m2, String m3, String a1, String a2, String a3) {
@@ -29,6 +38,11 @@ public class InputCalculation {
         "4x8 %s \n" +
         "4x8 %s \n",
         m1, m2, m3, a1, a2, a3);
+  }
+
+  public static void recommendIntenseWorkouts() {
+    recommendFullWorkouts();
+    recommendUpperLowerSplit();
   }
 
   public static void recommendFullWorkouts() {
@@ -48,13 +62,40 @@ public class InputCalculation {
         "Dumbbell Overhead Press",
         "Seated Row"
     ));
+  }
+
+  public static void recommendUpperLowerSplit() {
     content.add(createFullWorkout(
         "Bench Press",
         "Barbell Overhead Press",
         "Dumbbell Row",
-        "Incline Dumbbell Bench Press\"",
+        "Incline Dumbbell Bench Press",
         "Dumbbell Overhead Press",
         "Pendlay Row"
+    ));
+    content.add(createFullWorkout(
+        "Barbell Overhead Press",
+        "Bench Press",
+        "Pull Ups (weighted if applicable)",
+        "Dips",
+        "Dumbbell Overhead Press",
+        "Barbell Row"
+    ));
+    content.add(createFullWorkout(
+        "Back Squat",
+        "Deadlift",
+        "Front Squat",
+        "Split Squat",
+        "Hamstring Curl",
+        "30s Planks"
+    ));
+    content.add(createFullWorkout(
+        "Conventional Deadlift",
+        "Romanian Deadlift",
+        "Front Squat",
+        "Walking Lunges",
+        "Goblet Squat",
+        "30s Planks"
     ));
   }
 

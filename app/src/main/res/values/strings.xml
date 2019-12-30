@@ -85,4 +85,8 @@
     <string name="node10_03_TMessage">It is extremely impressive that you\'re able to use this app in your current condition. Almost makes it unbelievable&#8230;</string>
     <string name="message03_TMessage">Rest days are important, and you\'ve earned this! Enjoy your day off, and we\'ll see you back in the gym tomorrow!</string>
     <string name="node09_01_TMessage">We all have days where we are too busy, but often we can find time if we practice some time management skills. Use today as a learning experience.</string>
+    <string name="acceptWorkoutButton">Accept</string>
+    <string name="rejectWorkoutButton">Reject</string>
+    <string name="noRecommendations">That\'s all of the recommendations I have, sorry I couldn\'t be of more help</string>
+    <string name="finishButton">Finish</string>
 </resources>
