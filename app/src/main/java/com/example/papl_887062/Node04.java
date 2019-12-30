@@ -20,6 +20,7 @@ public class Node04 extends AppCompatActivity {
 
   public void onClickOption1(View view) {
     InputCalculation.setMessage(getResources().getString(R.string.node04_01_TMessage));
+    InputCalculation.recommendModerateWorkouts();
     openOptionDialog(view, ExerciseThen.class);
   }
 

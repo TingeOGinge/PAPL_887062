@@ -16,6 +16,7 @@ public class Message09 extends AppCompatActivity {
 
   public void onClickMessage(View view) {
     InputCalculation.setMessage(getResources().getString(R.string.message09_TMessage));
+    InputCalculation.recommendIntenseWorkouts();
     Intent myIntent = new Intent(Message09.this, ExerciseThen.class);
     startActivity(myIntent);
   }

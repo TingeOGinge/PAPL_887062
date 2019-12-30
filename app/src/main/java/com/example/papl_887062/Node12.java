@@ -30,6 +30,7 @@ public class Node12 extends AppCompatActivity {
 
   public void onClickOption1(View view) {
     InputCalculation.setMessage(getResources().getString(R.string.node12_01_TMessage));
+    InputCalculation.recommendEasyExercise();
     openOptionDialog(view, ExerciseThen.class);
   }
 
