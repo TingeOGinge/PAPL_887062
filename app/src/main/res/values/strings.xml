@@ -68,4 +68,5 @@
     <string name="message13Prompt">A black hole!? Dayum&#8230;</string>
     <string name="message14Prompt">Do you hear the words coming out of your mouth?</string>
     <string name="dontExercisePrompt">Fine, fine. Don\'t exercise then</string>
+    <string name="exerciseThenPrompt">Exercise! What are you waiting for!?</string>
 </resources>
