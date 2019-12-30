@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Message14"></activity>
+        <activity android:name=".DontExercise"></activity>
+        <activity android:name=".Message14" />
         <activity android:name=".Message13" />
         <activity android:name=".Message12" />
         <activity android:name=".Node12" />
