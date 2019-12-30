@@ -6,24 +6,25 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Message10 extends AppCompatActivity {
+public class DontExercise extends AppCompatActivity {
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_message10);
+    setContentView(R.layout.activity_dont_exercise);
+    ((DecisionStack) this.getApplication()).add(DontExercise.class);
   }
 
   public void onClickMessage(View view) {
-    Intent myIntent = new Intent(Message10.this, DontExercise.class);
+    Intent myIntent = new Intent(DontExercise.this, MainActivity.class);
     startActivity(myIntent);
   }
 
   public void onClickBack(View view) {
-    Class previous = ((DecisionStack) this.getApplication()).getPrevious(false);
+    Class previous = ((DecisionStack) this.getApplication()).getPrevious(true);
     try {
-      Intent i = new Intent(Message10.this, previous);
-      startActivity(i);
+      Intent node01ToMain = new Intent(DontExercise.this, previous);
+      startActivity(node01ToMain);
     } catch (Exception e) {
       System.err.println(e);
     }

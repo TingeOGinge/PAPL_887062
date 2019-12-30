@@ -15,7 +15,7 @@ public class Message03 extends AppCompatActivity {
   }
 
   public void onClickMessage(View view) {
-    Intent myIntent = new Intent(Message03.this, MainActivity.class);
+    Intent myIntent = new Intent(Message03.this, DontExercise.class);
     startActivity(myIntent);
   }
 
