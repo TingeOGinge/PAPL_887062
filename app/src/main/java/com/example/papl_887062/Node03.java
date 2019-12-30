@@ -35,7 +35,7 @@ public class Node03 extends AppCompatActivity {
   }
 
   public void onClickOption3(View view) {
-    openOptionDialog(view, MainActivity.class);
+    openOptionDialog(view, Message14.class);
   }
 
   public void onClickOption4(View view) {

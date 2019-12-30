@@ -65,4 +65,6 @@
     <string name="node12_01">Yes, I forgot I have legs!</string>
     <string name="node12_02">No, there is a black hole outside my door and I\'m trapped</string>
     <string name="message12Prompt">I think you know what I am going to say&#8230;</string>
+    <string name="message13Prompt">A black hole!? Dayum&#8230;</string>
+    <string name="message14Prompt">Do you hear the words coming out of your mouth?</string>
 </resources>
