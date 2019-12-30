@@ -6,6 +6,7 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.renderscript.ScriptGroup;
 import android.view.View;
 
 public class Node12 extends AppCompatActivity {
@@ -28,6 +29,7 @@ public class Node12 extends AppCompatActivity {
   }
 
   public void onClickOption1(View view) {
+    InputCalculation.setMessage(getResources().getString(R.string.node12_01_TMessage));
     openOptionDialog(view, ExerciseThen.class);
   }
 
