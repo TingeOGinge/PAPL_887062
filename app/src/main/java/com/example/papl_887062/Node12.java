@@ -8,19 +8,19 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Node11 extends AppCompatActivity {
+public class Node12 extends AppCompatActivity {
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_node11);
-    ((DecisionStack) this.getApplication()).add(Node11.class);
+    setContentView(R.layout.activity_node12);
+    ((DecisionStack) this.getApplication()).add(Node12.class);
   }
 
   public void onClickBack(View view) {
     Class previous = ((DecisionStack) this.getApplication()).getPrevious(true);
     try {
-      Intent node01ToMain = new Intent(Node11.this, previous);
+      Intent node01ToMain = new Intent(Node12.this, previous);
       startActivity(node01ToMain);
     } catch (Exception e) {
       System.err.println(e);
@@ -28,11 +28,11 @@ public class Node11 extends AppCompatActivity {
   }
 
   public void onClickOption1(View view) {
-    openOptionDialog(view, Message11.class);
+    openOptionDialog(view, MainActivity.class);
   }
 
   public void onClickOption2(View view) {
-    openOptionDialog(view, Node12.class);
+    openOptionDialog(view, MainActivity.class);
   }
 
   public void openOptionDialog(View view, final Class destination) {
@@ -43,7 +43,7 @@ public class Node11 extends AppCompatActivity {
           @Override
           public void onClick(DialogInterface dialogInterface, int i) {
             dialogInterface.cancel();
-            Intent in = new Intent(Node11.this, destination);
+            Intent in = new Intent(Node12.this, destination);
             startActivity(in);
           }
         })
