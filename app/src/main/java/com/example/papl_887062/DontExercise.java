@@ -16,7 +16,7 @@ public class DontExercise extends AppCompatActivity {
   }
 
   public void onClickMessage(View view) {
-    Intent myIntent = new Intent(DontExercise.this, MainActivity.class);
+    Intent myIntent = new Intent(DontExercise.this, Message15.class);
     startActivity(myIntent);
   }
 
