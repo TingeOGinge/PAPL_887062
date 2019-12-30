@@ -89,4 +89,5 @@
     <string name="rejectWorkoutButton">Reject</string>
     <string name="noRecommendations">That\'s all of the recommendations I have, sorry I couldn\'t be of more help. Google and YouTube are your best friends now</string>
     <string name="finishButton">Finish</string>
+    <string name="acceptWorkoutPrompt">Thank you for using me, I hope you enjoy your workout!</string>
 </resources>
