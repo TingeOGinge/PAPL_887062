@@ -58,4 +58,6 @@
     <string name="node11_02">No, I\'m Amish and/or didn\'t pay my bill</string>
     <string name="node06_01">Yes, I really do</string>
     <string name="node06_02">No, I suppose I do have alternatives</string>
+    <string name="node07_01">Yes, I did indeed</string>
+    <string name="node07_02">Honestly, no. I put Netflix on last night and one thing led to another&#8230;</string>
 </resources>
