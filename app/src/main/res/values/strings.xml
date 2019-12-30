@@ -79,4 +79,10 @@
     <string name="message11_TMessage">I will recommend some bodyweight workouts you can do. If none of these are suitable Youtube is your best friend!</string>
     <string name="message14_TMessage">For trying to use such a silly excuse, I suggest you add 25 burpees to your workout as punishment!\n(No obligation, but a kitten will cry if you don\'t)</string>
     <string name="message12_TMessage">Even if you only spend 30 minutes working out, it will be worth it</string>
+    <string name="message06_TMessage">Rest up, drink plenty of fluids and I hope you feel better soon. Thank you for not spreading your lurgy to the rest of us!</string>
+    <string name="node07_02_TMessage">Take today as a rest day, avoid caffeine and try to get an early night. Tomorrow is another day!</string>
+    <string name="message10_TMessage">If you\'re doctor has ordered you to rest, why on earth are you using this app!? Don\'t be foolish, make sure you recover</string>
+    <string name="node10_03_TMessage">It is extremely impressive that you\'re able to use this app in your current condition. Almost makes it unbelievable&#8230;</string>
+    <string name="message03_TMessage">Rest days are important, and you\'ve earned this! Enjoy your day off, and we\'ll see you back in the gym tomorrow!</string>
+    <string name="node09_01_TMessage">We all have days where we are too busy, but often we can find time if we practice some time management skills. Use today as a learning experience.</string>
 </resources>

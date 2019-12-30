@@ -37,6 +37,7 @@ public class Node10 extends AppCompatActivity {
   }
 
   public void onClickOption3(View view) {
+    InputCalculation.setMessage(getResources().getString(R.string.node10_03_TMessage));
     openOptionDialog(view, DontExercise.class);
   }
 
