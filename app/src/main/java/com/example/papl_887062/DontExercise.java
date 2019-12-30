@@ -13,6 +13,7 @@ public class DontExercise extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_dont_exercise);
     ((DecisionStack) this.getApplication()).add(DontExercise.class);
+    InputCalculation.setExerciseFlag(false);
   }
 
   public void onClickMessage(View view) {

@@ -18,7 +18,8 @@ public class Message15 extends AppCompatActivity {
   }
 
   public void onClickMessage(View view) {
-    Intent myIntent = new Intent(Message15.this, MainActivity.class);
+    Class destination = (InputCalculation.getExerciseFlag()) ? Message16.class : Message17.class;
+    Intent myIntent = new Intent(Message15.this, destination);
     startActivity(myIntent);
   }
 
