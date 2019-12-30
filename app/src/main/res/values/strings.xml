@@ -61,4 +61,7 @@
     <string name="node07_01">Yes, I did indeed</string>
     <string name="node07_02">Honestly, no. I put Netflix on last night and one thing led to another&#8230;</string>
     <string name="message11Prompt">Good job YouTube has plenty of at home workouts!</string>
+    <string name="node12Question">Can you go for a run outside?</string>
+    <string name="node12_01">Yes, I forgot I have legs!</string>
+    <string name="node12_02">No, there is a black hole outside my door and I\'m trapped</string>
 </resources>
