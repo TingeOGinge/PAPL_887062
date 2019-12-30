@@ -70,7 +70,13 @@
     <string name="dontExercisePrompt">Fine, fine. Don\'t exercise then</string>
     <string name="exerciseThenPrompt">Exercise! What are you waiting for!?</string>
     <string name="node01_01_TMessage">As you feel so good, there\'s no reason not to work out, time to get sweaty!</string>
-    <string name="node04_01_TMessage">"If your symptoms are not severe and you generally feel OK, then you can exercise. \nHowever, it is important not to exercise if you have a fever. A fever is when your body's temperature is >= 38C"\nSource - NHS Website</string>
-    <string name="message07_TMessage">I know it’s hard. I also know you can do this. I believe in you!"</string>
-
+    <string name="node04_01_TMessage">If your symptoms are not severe and you generally feel OK, then you can exercise. \nHowever, it is important not to exercise if you have a fever. A fever is when your body\'s temperature is >= 38C</string>
+    <string name="message07_TMessage">I know it\’s hard. I also know you can do this. I believe in you!"</string>
+    <string name="node07_01_TMessage">You might feel that exercise is the last thing on your mind. But, in fact, regular exercise will make you feel less tired in the long run, so you\'ll have more energy.</string>
+    <string name="node10_01_TMessage">But be careful, if you feel any pain when exercising make sure you stop immediately, and consult medical advice</string>
+    <string name="message09_TMessage">Research shows that physical activity can also boost self-esteem, mood, sleep quality and energy, as well as reducing your risk of stress, depression, dementia and Alzheimer\'s disease.</string>
+    <string name="node12_01_TMessage">Start each run with a gentle warm-up of at least 5 minutes. This can include quick walking, marching on the spot, knee lifts, side stepping and climbing stairs</string>
+    <string name="message11_TMessage">I will recommend some bodyweight workouts you can do. If none of these are suitable Youtube is your best friend!</string>
+    <string name="message14_TMessage">For trying to use such a silly excuse, I suggest you add 25 burpees to your workout as punishment!\n(No obligation, but a kitten will cry if you don\'t)</string>
+    <string name="message12_TMessage">Even if you only spend 30 minutes working out, it will be worth it</string>
 </resources>

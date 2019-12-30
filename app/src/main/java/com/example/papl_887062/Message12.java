@@ -15,6 +15,7 @@ public class Message12 extends AppCompatActivity {
   }
 
   public void onClickMessage(View view) {
+    InputCalculation.setMessage(getResources().getString(R.string.message12_TMessage));
     Intent myIntent = new Intent(Message12.this, ExerciseThen.class);
     startActivity(myIntent);
   }
