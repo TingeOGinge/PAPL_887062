@@ -33,6 +33,7 @@ public class Node07 extends AppCompatActivity {
   }
 
   public void onClickOption2(View view) {
+    InputCalculation.setMessage(getResources().getString(R.string.node07_02_TMessage));
     openOptionDialog(view, DontExercise.class);
   }
 
