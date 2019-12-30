@@ -69,4 +69,8 @@
     <string name="message14Prompt">Do you hear the words coming out of your mouth?</string>
     <string name="dontExercisePrompt">Fine, fine. Don\'t exercise then</string>
     <string name="exerciseThenPrompt">Exercise! What are you waiting for!?</string>
+    <string name="node01_01_TMessage">As you feel so good, there\'s no reason not to work out, time to get sweaty!</string>
+    <string name="node04_01_TMessage">"If your symptoms are not severe and you generally feel OK, then you can exercise. \nHowever, it is important not to exercise if you have a fever. A fever is when your body's temperature is >= 38C"\nSource - NHS Website</string>
+    <string name="message07_TMessage">I know it’s hard. I also know you can do this. I believe in you!"</string>
+
 </resources>

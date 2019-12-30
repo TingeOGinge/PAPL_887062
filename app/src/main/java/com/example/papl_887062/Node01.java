@@ -27,9 +27,7 @@ public class Node01 extends AppCompatActivity {
   }
 
   public void onClickOption1(View view) {
-    InputCalculation.setMessage(
-        "As you feel so good, there's no reason not to work out, time to get sweaty!"
-    );
+    InputCalculation.setMessage(getResources().getString(R.string.node01_01_TMessage));
     InputCalculation.recommendFullWorkouts();
     openOptionDialog(view, ExerciseThen.class);
   }
