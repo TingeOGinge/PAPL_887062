@@ -14,8 +14,14 @@ public class Message16 extends AppCompatActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_message16);
+    ((DecisionStack) this.getApplication()).add(Message16.class);
     workoutTV = findViewById(R.id.textView);
     workoutTV.setText(InputCalculation.getRecommendation());
+  }
+
+  public void onClickAccept(View view) {
+    Intent i = new Intent(Message16.this, AcceptWorkout.class);
+    startActivity(i);
   }
 
   public void getNextRecommendation(View view) {
