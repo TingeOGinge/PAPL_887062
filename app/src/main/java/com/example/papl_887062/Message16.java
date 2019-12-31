@@ -30,6 +30,7 @@ public class Message16 extends AppCompatActivity {
       workoutTV.setText(tvContent);
     } else {
       workoutTV.setText(R.string.noRecommendations);
+      workoutTV.setTextSize(32);
       Button acceptButton = findViewById(R.id.button);
       acceptButton.setEnabled(false);
       Button rejectButton = findViewById(R.id.button2);
@@ -45,7 +46,7 @@ public class Message16 extends AppCompatActivity {
   }
 
   public void onClickBack(View view) {
-    Class previous = ((DecisionStack) this.getApplication()).getPrevious(false);
+    Class previous = ((DecisionStack) this.getApplication()).getPrevious(true);
     try {
       Intent i = new Intent(Message16.this, previous);
       startActivity(i);

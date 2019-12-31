@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
     ((DecisionStack) this.getApplication()).add(MainActivity.class);
+    new InputCalculation();
   }
 
   public void onClickHomepageText(View view) {
