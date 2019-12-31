@@ -15,6 +15,7 @@ public class DecisionStack extends Application {
     super.onCreate();
     mContext = this;
     this.stack = new Stack<>();
+    new InputCalculation();
   }
 
   public static Context getContext() {
