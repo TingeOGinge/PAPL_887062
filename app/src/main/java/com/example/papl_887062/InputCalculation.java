@@ -1,161 +1,144 @@
 package com.example.papl_887062;
 
+import android.content.res.Resources;
+
 import java.util.ArrayList;
 
-public class InputCalculation {
+public class InputCalculation{
   private static String message;
-  private static ArrayList<String> content = new ArrayList<>();
+  private static ArrayList<String> content;
   private static Boolean exerciseFlag;
+  private static Resources context;
 
-  public static String getMessage() {
+  public InputCalculation() {
+    content = new ArrayList<>();
+    context = DecisionStack.getContext().getResources();
+  }
+
+  static String getMessage() {
     return message;
   }
 
-  public static void setMessage(String m) {
+  static void setMessage(String m) {
     message = m;
   }
 
-  public static String getRecommendation() {
+  static String getRecommendation() {
     return (!content.isEmpty()) ? content.remove(0) : null;
   }
 
-  public static void setExerciseFlag(Boolean b) {
+  static void setExerciseFlag(Boolean b) {
     exerciseFlag = b;
   }
 
-  public static Boolean getExerciseFlag() {
+  static Boolean getExerciseFlag() {
     return exerciseFlag;
   }
 
-  private static String createFullWorkout(String m1, String m2, String m3, String a1, String a2, String a3) {
-    return String.format("Main exercises: \n" +
-        "3x5 %s \n" +
-        "3x5 %s \n" +
-        "3x5 %s \n" +
-        "\n" +
-        "Accessories (optional) \n" +
-        "4x8 %s \n" +
-        "4x8 %s \n" +
-        "4x8 %s \n",
-        m1, m2, m3, a1, a2, a3);
+  static String createFullWorkout(String m1, String m2, String m3, String a1, String a2,
+                                          String a3) {
+    return String.format("%1$s\n" +
+        "%2$s %3$s \n" +
+        "%2$s %4$s \n" +
+        "%2$s %5$s \n" +
+        "\n%6$s\n" +
+        "%7$s %8$s \n" +
+        "%7$s %9$s \n" +
+        "%7$s %10$s \n",
+        context.getString(R.string.mainExerciseTitle), context.getString(R.string.mainRepScheme),
+        m1, m2, m3,
+        context.getString(R.string.accessoryExerciseTitle), context.getString(R.string.accessoryRepScheme),
+        a1, a2, a3);
   }
 
-  public static void recommendIntenseWorkouts() {
+  static void recommendIntenseWorkouts() {
     recommendFullWorkouts();
     recommendUpperLowerSplit();
   }
 
-  public static void recommendModerateWorkouts() {
+  static void recommendModerateWorkouts() {
     recommendBodyweight();
     recommendCardio();
     recommendFullWorkouts();
   }
 
-  public static void recommendBasicWorkouts() {
+  static void recommendBasicWorkouts() {
     recommendEasyExercise();
     recommendBodyweight();
   }
 
-  public static void recommendFullWorkouts() {
+  static void recommendFullWorkouts() {
     content.add(createFullWorkout(
-        "Back Squat",
-        "Bench Press",
-        "Barbell Row",
-        "Weighted Lunges",
-        "Incline Dumbbell Bench Press",
-        "Lateral Pulldown"
+        context.getString(R.string.backSquat),
+        context.getString(R.string.bbBench),
+        context.getString(R.string.bbRow),
+        context.getString(R.string.wLunges),
+        context.getString(R.string.inclineDbBench),
+        context.getString(R.string.lPulldown)
     ));
     content.add(createFullWorkout(
-        "Deadlift",
-        "Barbell Overhead Press",
-        "Pull Ups (weighted if applicable)",
-        "Front Squat",
-        "Dumbbell Overhead Press",
-        "Seated Row"
-    ));
-  }
-
-  public static void recommendUpperLowerSplit() {
-    content.add(createFullWorkout(
-        "Bench Press",
-        "Barbell Overhead Press",
-        "Dumbbell Row",
-        "Incline Dumbbell Bench Press",
-        "Dumbbell Overhead Press",
-        "Pendlay Row"
-    ));
-    content.add(createFullWorkout(
-        "Barbell Overhead Press",
-        "Bench Press",
-        "Pull Ups (weighted if applicable)",
-        "Dips",
-        "Dumbbell Overhead Press",
-        "Barbell Row"
-    ));
-    content.add(createFullWorkout(
-        "Back Squat",
-        "Deadlift",
-        "Front Squat",
-        "Split Squat",
-        "Hamstring Curl",
-        "30s Planks"
-    ));
-    content.add(createFullWorkout(
-        "Conventional Deadlift",
-        "Romanian Deadlift",
-        "Front Squat",
-        "Walking Lunges",
-        "Goblet Squat",
-        "30s Planks"
+        context.getString(R.string.deadlift),
+        context.getString(R.string.bbOhp),
+        context.getString(R.string.pullups),
+        context.getString(R.string.frontSquat),
+        context.getString(R.string.dbOhp),
+        context.getString(R.string.seatedRow)
     ));
   }
 
-  public static void recommendCardio() {
-    content.add(
-        "20 Minutes Stationary Bike\n" +
-            "HIIT Circuit: \n" +
-            "21 - 15 - 9 \n" +
-            "Kettlebell Swings \n" +
-            "Burpees \n" +
-            "Double Unders"
-    );
-    content.add(
-        "30 Minutes Treadmill\n" +
-            "HIIT Circuit: \n" +
-            "3 Rounds For Time: \n" +
-            "20m Sled Push \n" +
-            "10 Pull Ups\n" +
-            "10 Burpees"
-    );
-  }
-
-  public static void recommendEasyExercise() {
-    content.add(
-        "Dynamic Stretching to Warm Up \n" +
-            "Go Jogging \n" +
-            "It really is that simple"
-    );
-    content.add(
-        "Yoga: Sun Salutations \n" +
-            "Mountain Pose \n" +
-            "Upward Salute \n" +
-            "Standing Forward Bend \n" +
-            "Plank Pose \n" +
-            "Upward Facing Dog \n" +
-            "Downward Facing Dog \n" +
-            "Standing Forward Bend \n" +
-            "Repeat as needed"
-    );
-  }
-
-  public static void recommendBodyweight() {
+  static void recommendUpperLowerSplit() {
     content.add(createFullWorkout(
-        "Air Squats",
-        "Push Ups",
-        "Inverted Rows (Pull Ups if possible)",
-        "Pistol Squats",
-        "Diamond Push Ups",
-        "30 Second Planks"
+        context.getString(R.string.bbBench),
+        context.getString(R.string.bbOhp),
+        context.getString(R.string.dbRow),
+        context.getString(R.string.inclineDbBench),
+        context.getString(R.string.dbOhp),
+        context.getString(R.string.pendlay)
+    ));
+    content.add(createFullWorkout(
+        context.getString(R.string.bbOhp),
+        context.getString(R.string.bbBench),
+        context.getString(R.string.pullups),
+        context.getString(R.string.dips),
+        context.getString(R.string.dbOhp),
+        context.getString(R.string.bbRow)
+    ));
+    content.add(createFullWorkout(
+        context.getString(R.string.backSquat),
+        context.getString(R.string.deadlift),
+        context.getString(R.string.frontSquat),
+        context.getString(R.string.splitSquat),
+        context.getString(R.string.hamstringCurl),
+        context.getString(R.string.plank30)
+    ));
+    content.add(createFullWorkout(
+        context.getString(R.string.deadlift),
+        context.getString(R.string.romDeadlift),
+        context.getString(R.string.frontSquat),
+        context.getString(R.string.wLunges),
+        context.getString(R.string.gobletSquat),
+        context.getString(R.string.plank30)
+    ));
+  }
+
+  static void recommendCardio() {
+    content.add(context.getString(R.string.cardio1));
+    content.add(context.getString(R.string.cardio2));
+  }
+
+  static void recommendEasyExercise() {
+    content.add(context.getString(R.string.easyWorkout1));
+    content.add(context.getString(R.string.easyWorkout2));
+  }
+
+  static void recommendBodyweight() {
+    content.add(createFullWorkout(
+        context.getString(R.string.airSquat),
+        context.getString(R.string.pushups),
+        context.getString(R.string.invertRow),
+        context.getString(R.string.pistols),
+        context.getString(R.string.diamondPushups),
+        context.getString(R.string.plank30)
     ));
   }
 
