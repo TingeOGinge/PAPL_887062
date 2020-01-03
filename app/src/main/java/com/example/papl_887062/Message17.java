@@ -20,7 +20,7 @@ public class Message17 extends AppCompatActivity {
   }
 
   public void onClickMessage(View view) {
-    Intent myIntent = new Intent(Message17.this, Message15.class);
+    Intent myIntent = new Intent(Message17.this, DontExerciseEnd.class);
     startActivity(myIntent);
   }
 

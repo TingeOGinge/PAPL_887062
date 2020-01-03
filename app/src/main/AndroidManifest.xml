@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AcceptWorkout"></activity>
+        <activity android:name=".DontExerciseEnd"></activity>
+        <activity android:name=".AcceptWorkout" />
         <activity android:name=".Message17" />
         <activity android:name=".Message16" />
         <activity android:name=".Message15" />
