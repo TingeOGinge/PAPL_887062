@@ -123,4 +123,8 @@
     <string name="invertRow">Inverted Rows (Pull Ups if possible)</string>
     <string name="pistols">Pistol Squats</string>
     <string name="diamondPushups">Diamond Push Ups</string>
+    <string name="unwellUrl1">https://www.nhs.uk/conditions/diarrhoea-and-vomiting/</string>
+    <string name="unwellMessage1">Diarrhoea and Vomiting</string>
+    <string name="unwellUrl2">https://www.nhs.uk/conditions/common-cold/</string>
+    <string name="unwellMessage2">The Common Cold</string>
 </resources>

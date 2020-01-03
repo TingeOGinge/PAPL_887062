@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.view.View;
+import android.widget.TextView;
 
 public class Message17 extends AppCompatActivity {
 
@@ -12,6 +14,9 @@ public class Message17 extends AppCompatActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_message17);
+    TextView tv = findViewById(R.id.textView);
+    tv.setMovementMethod(LinkMovementMethod.getInstance());
+    tv.setText(InputCalculation.getNhsLinks());
   }
 
   public void onClickMessage(View view) {
