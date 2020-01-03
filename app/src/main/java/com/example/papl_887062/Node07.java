@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
 
@@ -35,6 +36,9 @@ public class Node07 extends AppCompatActivity {
 
   public void onClickOption2(View view) {
     InputCalculation.setMessage(getResources().getString(R.string.node07_02_TMessage));
+    Resources resources = getResources();
+    InputCalculation.addNhsLink(resources.getString(R.string.tiredUrl1), resources.getString(R.string.tiredMessage1));
+    InputCalculation.addNhsLink(resources.getString(R.string.tiredUrl2), resources.getString(R.string.tiredMessage2));
     openOptionDialog(view, DontExercise.class);
   }
 

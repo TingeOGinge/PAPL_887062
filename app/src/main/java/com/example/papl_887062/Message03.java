@@ -16,6 +16,8 @@ public class Message03 extends AppCompatActivity {
 
   public void onClickMessage(View view) {
     InputCalculation.setMessage(getResources().getString(R.string.message03_TMessage));
+    InputCalculation.addNhsLink(getResources().getString(R.string.restUrl1),
+        getResources().getString(R.string.restMessage1));
     Intent myIntent = new Intent(Message03.this, DontExercise.class);
     startActivity(myIntent);
   }

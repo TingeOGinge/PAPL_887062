@@ -29,6 +29,8 @@ public class Node09 extends AppCompatActivity {
 
   public void onClickOption1(View view) {
     InputCalculation.setMessage(getResources().getString(R.string.node09_01_TMessage));
+    InputCalculation.addNhsLink(getResources().getString(R.string.timeManageUrl1),
+        getResources().getString(R.string.timeManageMessage1));
     openOptionDialog(view, DontExercise.class);
   }
 
