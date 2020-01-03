@@ -3,6 +3,7 @@ package com.example.papl_887062;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
 
@@ -16,6 +17,9 @@ public class Message06 extends AppCompatActivity {
 
   public void onClickMessage(View view) {
     InputCalculation.setMessage(getResources().getString(R.string.message06_TMessage));
+    Resources resources = getResources();
+    InputCalculation.addNhsLink(resources.getString(R.string.unwellUrl1), resources.getString(R.string.unwellMessage1));
+    InputCalculation.addNhsLink(resources.getString(R.string.unwellUrl2), resources.getString(R.string.unwellMessage2));
     Intent myIntent = new Intent(Message06.this, DontExercise.class);
     startActivity(myIntent);
   }
