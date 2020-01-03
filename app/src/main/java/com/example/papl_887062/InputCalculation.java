@@ -19,6 +19,12 @@ public class InputCalculation{
     nhsLinkContent = "Helpful Links: <br><br>";
   }
 
+  public static void restart() {
+    workoutContent.clear();
+    nhsLinkContent = "Helpful Links: <br><br>";
+    message = null;
+  }
+
   public static String getMessage() {
     return message;
   }
