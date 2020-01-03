@@ -15,6 +15,7 @@ public class AcceptWorkout extends AppCompatActivity {
   }
 
   public void onClickMessage(View view) {
+    InputCalculation.restart();
     Intent myIntent = new Intent(AcceptWorkout.this, MainActivity.class);
     startActivity(myIntent);
   }

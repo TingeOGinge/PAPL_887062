@@ -24,6 +24,7 @@ public class ExerciseThen extends AppCompatActivity {
   public void onClickBack(View view) {
     Class previous = ((DecisionStack) this.getApplication()).getPrevious(true);
     try {
+      InputCalculation.restart();
       Intent node01ToMain = new Intent(ExerciseThen.this, previous);
       startActivity(node01ToMain);
     } catch (Exception e) {
