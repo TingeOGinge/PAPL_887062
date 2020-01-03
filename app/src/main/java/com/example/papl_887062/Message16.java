@@ -38,6 +38,7 @@ public class Message16 extends AppCompatActivity {
       rejectButton.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
+          InputCalculation.restart();
           Intent myIntent = new Intent(Message16.this, MainActivity.class);
           startActivity(myIntent);
         }
