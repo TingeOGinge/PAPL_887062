@@ -127,4 +127,16 @@
     <string name="unwellMessage1">Diarrhoea and Vomiting</string>
     <string name="unwellUrl2">https://www.nhs.uk/conditions/common-cold/</string>
     <string name="unwellMessage2">The Common Cold</string>
+    <string name="tiredUrl1">https://www.nhs.uk/live-well/sleep-and-tiredness/why-lack-of-sleep-is-bad-for-your-health/</string>
+    <string name="tiredMessage1">Effects of Insomnia</string>
+    <string name="tiredUrl2">https://www.nhs.uk/live-well/sleep-and-tiredness/how-to-get-to-sleep/</string>
+    <string name="tiredMessage2">Sleep Tips</string>
+    <string name="docOrdersUrl1">https://www.nhs.uk/conditions/sports-injuries/</string>
+    <string name="docOrdersMessage1">\"While recovering, it\'s important not to do too much too soon – aim to increase your level of activity gradually over time.\"</string>
+    <string name="tetraplegiaUrl1">https://www.nhs.uk/conditions/paralysis/</string>
+    <string name="tetraplegiaMessage1">Just in case&#8230;</string>
+    <string name="restUrl1">https://www.menshealth.com/entertainment/a28169196/the-rock-cheat-day-meals/</string>
+    <string name="restMessage1">Rock Solid Cheat Day Advice</string>
+    <string name="timeManageUrl1">https://www.nhs.uk/conditions/stress-anxiety-depression/time-management-tips/</string>
+    <string name="timeManageMessage1">Time Management Tips</string>
 </resources>
