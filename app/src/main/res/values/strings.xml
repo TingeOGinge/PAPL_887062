@@ -139,5 +139,5 @@
     <string name="restMessage1">Rock Solid Cheat Day Advice</string>
     <string name="timeManageUrl1">https://www.nhs.uk/conditions/stress-anxiety-depression/time-management-tips/</string>
     <string name="timeManageMessage1">Time Management Tips</string>
-    <string name="dontExerciseEndMessage">Thank you for using the app, press finish to start again</string>
+    <string name="dontExerciseEndMessage">Thank you for using the app, click to start again</string>
 </resources>
